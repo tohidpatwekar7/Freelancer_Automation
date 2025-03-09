@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-30T13:19:04 IST" name="Suite" finished-at="2024-11-30T13:20:22 IST" duration-ms="77825">
+    <groups>
+      <group name="smoke">
+        <method signature="TC001.verifyLogin()[pri:0, instance:TestCases.TC001@4b0d79fc]" name="verifyLogin" class="TestCases.TC001"/>
+        <method signature="TC002.validateSearchFunction()[pri:0, instance:TestCases.TC002@60099951]" name="validateSearchFunction" class="TestCases.TC002"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-11-30T13:19:04 IST" name="Test" finished-at="2024-11-30T13:20:22 IST" duration-ms="77825">
+      <class name="TestCases.TC002">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.TC002@60099951]" started-at="2024-11-30T13:19:04 IST" name="beforeMethod" finished-at="2024-11-30T13:20:05 IST" duration-ms="61646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateSearchFunction()[pri:0, instance:TestCases.TC002@60099951]" started-at="2024-11-30T13:20:05 IST" name="validateSearchFunction" finished-at="2024-11-30T13:20:22 IST" duration-ms="16091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunction -->
+      </class> <!-- TestCases.TC002 -->
+      <class name="TestCases.TC001">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.TC001@4b0d79fc]" started-at="2024-11-30T13:19:04 IST" name="beforeMethod" finished-at="2024-11-30T13:19:50 IST" duration-ms="46164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyLogin()[pri:0, instance:TestCases.TC001@4b0d79fc]" started-at="2024-11-30T13:19:50 IST" name="verifyLogin" finished-at="2024-11-30T13:20:01 IST" duration-ms="11249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- TestCases.TC001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
