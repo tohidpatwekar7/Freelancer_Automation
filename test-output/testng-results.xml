@@ -1,35 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-30T13:19:04 IST" name="Suite" finished-at="2024-11-30T13:20:22 IST" duration-ms="77825">
+  <suite started-at="2025-03-11T18:02:48 IST" name="Default suite" finished-at="2025-03-11T18:04:48 IST" duration-ms="119345">
     <groups>
-      <group name="smoke">
-        <method signature="TC001.verifyLogin()[pri:0, instance:TestCases.TC001@4b0d79fc]" name="verifyLogin" class="TestCases.TC001"/>
-        <method signature="TC002.validateSearchFunction()[pri:0, instance:TestCases.TC002@60099951]" name="validateSearchFunction" class="TestCases.TC002"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-11-30T13:19:04 IST" name="Test" finished-at="2024-11-30T13:20:22 IST" duration-ms="77825">
-      <class name="TestCases.TC002">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.TC002@60099951]" started-at="2024-11-30T13:19:04 IST" name="beforeMethod" finished-at="2024-11-30T13:20:05 IST" duration-ms="61646" status="PASS">
+    <test started-at="2025-03-11T18:02:48 IST" name="Default test" finished-at="2025-03-11T18:04:48 IST" duration-ms="119345">
+      <class name="TestCases.TC_001_SignUpPage">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:02:48 IST" name="setUP" finished-at="2025-03-11T18:02:57 IST" duration-ms="8453" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="validateSearchFunction()[pri:0, instance:TestCases.TC002@60099951]" started-at="2024-11-30T13:20:05 IST" name="validateSearchFunction" finished-at="2024-11-30T13:20:22 IST" duration-ms="16091" status="PASS">
+        </test-method> <!-- setUP -->
+        <test-method signature="Verify_SignUp()[pri:1, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:02:57 IST" name="Verify_SignUp" finished-at="2025-03-11T18:03:05 IST" duration-ms="8405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSearchFunction -->
-      </class> <!-- TestCases.TC002 -->
-      <class name="TestCases.TC001">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestCases.TC001@4b0d79fc]" started-at="2024-11-30T13:19:04 IST" name="beforeMethod" finished-at="2024-11-30T13:19:50 IST" duration-ms="46164" status="PASS">
+        </test-method> <!-- Verify_SignUp -->
+        <test-method signature="Verify_ProfessionalPage()[pri:2, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:05 IST" name="Verify_ProfessionalPage" finished-at="2025-03-11T18:03:11 IST" duration-ms="6092" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyLogin()[pri:0, instance:TestCases.TC001@4b0d79fc]" started-at="2024-11-30T13:19:50 IST" name="verifyLogin" finished-at="2024-11-30T13:20:01 IST" duration-ms="11249" status="PASS">
+        </test-method> <!-- Verify_ProfessionalPage -->
+        <test-method signature="Verify_TypesofProject()[pri:3, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:11 IST" name="Verify_TypesofProject" finished-at="2025-03-11T18:03:20 IST" duration-ms="8303" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLogin -->
-      </class> <!-- TestCases.TC001 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- Verify_TypesofProject -->
+        <test-method signature="Verify_TypeDev()[pri:4, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:20 IST" name="Verify_TypeDev" finished-at="2025-03-11T18:03:27 IST" duration-ms="7375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TypeDev -->
+        <test-method signature="Verify_PlatformSelection()[pri:5, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:27 IST" name="Verify_PlatformSelection" finished-at="2025-03-11T18:03:39 IST" duration-ms="12024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_PlatformSelection -->
+        <test-method signature="Verify_TypeofBusiness()[pri:6, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:39 IST" name="Verify_TypeofBusiness" finished-at="2025-03-11T18:03:47 IST" duration-ms="7714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_TypeofBusiness -->
+        <test-method signature="Verify_ProjectSelection()[pri:7, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:47 IST" name="Verify_ProjectSelection" finished-at="2025-03-11T18:03:53 IST" duration-ms="5775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_ProjectSelection -->
+        <test-method signature="Verify_HiringDecisionPage()[pri:8, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:53 IST" name="Verify_HiringDecisionPage" finished-at="2025-03-11T18:03:59 IST" duration-ms="6365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_HiringDecisionPage -->
+        <test-method signature="Verify_BudgetSelectionPage()[pri:9, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:03:59 IST" name="Verify_BudgetSelectionPage" finished-at="2025-03-11T18:04:08 IST" duration-ms="8599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_BudgetSelectionPage -->
+        <test-method signature="Verify_LoactionPage()[pri:10, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:04:08 IST" name="Verify_LoactionPage" finished-at="2025-03-11T18:04:16 IST" duration-ms="8793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoactionPage -->
+        <test-method signature="Verify_BusinessDetails()[pri:11, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:04:16 IST" name="Verify_BusinessDetails" finished-at="2025-03-11T18:04:29 IST" duration-ms="12360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_BusinessDetails -->
+        <test-method signature="Verify_RegisterDetails()[pri:12, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:04:29 IST" name="Verify_RegisterDetails" finished-at="2025-03-11T18:04:47 IST" duration-ms="17951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_RegisterDetails -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.TC_001_SignUpPage@4135c3b]" started-at="2025-03-11T18:04:47 IST" name="TearDown" finished-at="2025-03-11T18:04:48 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCases.TC_001_SignUpPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
